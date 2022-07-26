@@ -10,4 +10,20 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+So first thing’s first - install Docker.
+
+https://docs.docker.com/get-docker/
+
+Then, install the Docker Compose plugin:
+
+https://www.howtogeek.com/devops/how-to-upgrade-to-docker-compose-v2/
+
+Navigate to the local project directory, then run the following in the terminal: 
+
+docker-compose up
+
+You should now be connected to the Anythink Market database.
+
+You can confirm the backend linkage by pointing your browser to http://localhost:3000/api/ping
+
+You can confirm the frontend linkage by pointer your browser to http://localhost:3001/register
